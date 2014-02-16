@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#backCover{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin: 50px auto;
+	background-image: url('daughtry-cover.jpg');
+	overflow: hidden;
+}
+
+#songsList{
+	position: relative;
+	width: 450px;
+	height: 270px;
+	margin: 110px auto;
+	background-color: rgba(0, 0, 0, 0.5 );
+}
+
+#songsList ol{
+	display: block;
+	width: 417px;
+	float: left;
+}
+
+#songsList ul{
+	display: block;
+	width: 30px;
+	list-style: none;
+	float: right;
+}
+
+#songsList ol li{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+#songsList ul li{
+	display: block;
+	width: 100%;
+	list-style: none;
+}
+
+
+.songName{
+	position: relative;
+	display: block;
+	margin: 5px 3px 0 5px;
+	color: white;
+	float: left;
+}
+
+.dots{
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	border-bottom: 2px dotted white;
+}
+
+.songLength{
+	margin: 5px 0 0 0;
+	color: white;
+}

@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+	width: 400px;
+	height: 210px;
+	border: 2px solid #999999;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: 50px;
+}
+
+
+header{
+	padding: 15px 15px;
+	margin: 10px;
+	background-color: #EEEEEE;
+}
+
+section{
+	width: 167.04px;
+	height: 50px;
+	padding: 10px 15px;
+	margin: 0 0 0 10px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+#sideBar1{
+	width: 54px;
+	height: 50px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+#sideBar2{
+	height: 50px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+
+footer{
+	padding: 15px 15px;
+	width: 350px;
+	margin: 10px;
+	float: left;
+	background-color: #EEEEEE;
+}
